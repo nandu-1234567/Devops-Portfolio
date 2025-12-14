@@ -1,5 +1,4 @@
 # Devops-Portfolio
-# HTML Docker App
 
 ## Description
 A simple HTML website containerized using Docker and deployed using Kubernetes.
