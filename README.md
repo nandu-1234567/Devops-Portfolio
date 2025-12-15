@@ -29,5 +29,9 @@ kubectl apply -f deployment.yaml
 2.Create Service:
 kubectl apply -f service.yaml
 
-3.Access via NodePort:
+3.Check 
+kubectl get pods
+kubectl get svc
+
+4.Access via NodePort:
 http://localhost:30007
