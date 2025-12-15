@@ -21,3 +21,13 @@ A simple HTML website containerized using Docker and deployed using Kubernetes.
 
 ## Docker Hub Image
 https://hub.docker.com/r/balla1234/my-portfolio
+
+## Deploy on Kubernetes
+1.Create Deployment:
+kubectl apply -f deployment.yaml
+
+2.Create Service:
+kubectl apply -f service.yaml
+
+3.Access via NodePort:
+http://localhost:30007
